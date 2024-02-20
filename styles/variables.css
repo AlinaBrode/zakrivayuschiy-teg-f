@@ -1,0 +1,65 @@
+/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --font-family: "Inter-Variable", sans-serif;
+  --font-family-Robo: "PressStart2P", "Roboto Flex", sans-serif;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --text-font-weight: "wght" 400;
+    --title-font-weight: "wght" 700;
+    --background-color: #ffffff;
+    --button-background-color: #ffffff;
+    --text-color: #000;
+    --mix-text-color: #ffffff;
+    --text-button: #ffffff;
+    --border-button: #000000;
+    --heart-color: #ff0000;
+    --label-stroke-clr:var(--background-color);
+    --background-stripes-gradient: repeating-linear-gradient(
+        to right,
+        #d3d3d3 0px,
+        #d3d3d3 2px,
+        transparent 2px,
+        transparent 4px
+      ),
+      repeating-linear-gradient(
+        to bottom,
+        #d3d3d3 0px,
+        #d3d3d3 2px,
+        transparent 2px,
+        transparent 4px
+      ),
+      linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --title-font-weight: "wght" 785;
+    --text-font-weight: "wght" 465;
+    --background-color: #000000;
+    --text-color: #00cc14;
+    --mix-text-color: #000000;
+    --text-button: #000000;
+    --button-background-color: #000000;
+    --border-button: #00cc14;
+    --heart-color: #ff0000;
+    --label-stroke-clr:var(--background-color);
+    --background-stripes-gradient: repeating-linear-gradient(
+        to right,
+        #000 0px,
+        #000 2px,
+        transparent 2px,
+        transparent 4px
+      ),
+      repeating-linear-gradient(
+        to bottom,
+        #000 0px,
+        #000 2px,
+        transparent 2px,
+        transparent 4px
+      ),
+      linear-gradient(to bottom, #007f0c 0%, #004306 100%);
+  }
+}
