@@ -31,7 +31,7 @@
   padding: 120px 0 24px;
   text-align: center;
   margin: 100px 0;
-  font-family: var(--font-family-Robo);
+  font-family: var( --font-family-fantasy);
 }
 
 .header__link {
@@ -49,7 +49,7 @@
 }
 
 .image-mark {
-  font-family: var(--font-family-Robo);
+  font-family: var( --font-family-fantasy);
   font-size: 14px;
   font-variation-settings: "wght" var(--text-font-weight);
   z-index: 1;
@@ -189,7 +189,7 @@
 .card__like-button-box {
   justify-content: end;
   display: flex;
-  font-family: var(--font-family-Robo);
+  font-family: var( --font-family-fantasy);
   font-size: 14px;
   line-height: 12.6px;
   gap: 19px;
@@ -234,6 +234,7 @@
   outline: none;
   transition: 0.5s ease-in-out;
   border-color: var(--border-button);
+  cursor: pointer;
 }
 
 .button::before {
@@ -259,8 +260,7 @@
 .button__text {
   color: var(--mix-text-color);
   mix-blend-mode: difference;
-  margin-block-end: end;
-  font-family: var(--font-family-Robo);
+  font-family: var( --font-family-fantasy);
   font-size: 14px;
   width: 266px;
 }
@@ -369,7 +369,7 @@
 }
 
 .dialog {
-  font-family: var(--font-family-Robo);
+  font-family: var( --font-family-fantasy);
   font-size: 14px;
   padding: 30px 26px;
   color: var(--text-color);
