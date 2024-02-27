@@ -99,6 +99,8 @@
   align-items: center;
   width: min-content;
   padding-block-start: 5px;
+  font-weight: var(--text-font-weight);
+  line-height: 14px;
 }
 
 .theme-menu__button {
@@ -380,6 +382,11 @@
   height: 21px;
   color: var(--mix-text-color);
   mix-blend-mode: difference;
+}
+@media (width <= 375px) {
+.header {
+  padding-top: 120px;
+}
 }
 
 @media (width <= 375px) {
