@@ -34,32 +34,4 @@
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --title-font-weight: "wght" 785;
-    --text-font-weight: "wght" 465;
-    --background-color: #000000;
-    --text-color: #00cc14;
-    --mix-text-color: #000000;
-    --text-button: #000000;
-    --button-background-color: #000000;
-    --border-button: #00cc14;
-    --heart-color: #ff0000;
-    --label-stroke-clr:var(--background-color);
-    --background-stripes-gradient: repeating-linear-gradient(
-        to right,
-        #000 0px,
-        #000 2px,
-        transparent 2px,
-        transparent 4px
-      ),
-      repeating-linear-gradient(
-        to bottom,
-        #000 0px,
-        #000 2px,
-        transparent 2px,
-        transparent 4px
-      ),
-      linear-gradient(to bottom, #007f0c 0%, #004306 100%);
-  }
-}
+
